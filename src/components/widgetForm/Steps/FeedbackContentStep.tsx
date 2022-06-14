@@ -17,7 +17,7 @@ export function FeedbackContentStep ({
 }: FeedbackContentStepProps){
   //estado - armazenar o screenshot
   const [screenshot, setScreenshot] = useState<string | null>(null)
-  //estado - armazenar comentario do feedback
+  //estado - armazenar comentário do feedback
   const [comment, setComment] = useState('');
 
   const feedbackTypeInfo = feedbackTypes[feedbackType];
