@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(routes);
 
 //função criada para assim que o sevidor estiver no ar
-app.listen(3333, () => { 
+app.listen(process.env.PORT || 3333, () => { 
   console.log('HTTP server running!');
 });
 
